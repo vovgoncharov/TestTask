@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Forms</title>
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="section-block">
+                    <form action="" class="form-own">
+                        <fieldset class="inputs">
+                            <div class="input">
+                                <label for="number-one">Введіть число</label>
+                                <input id="number-one" type="number" />
+                            </div>
+                            <select id="dropdown">
+                                <option value="">
+                                    Будь ласка виберіть операцію
+                                </option>
+                                <option value="+">+</option>
+                                <option value="-">-</option>
+                                <option value="*">*</option>
+                                <option value="/">/</option>
+                            </select>
+                            <div class="input">
+                                <label for="number-two">Введіть число</label>
+                                <input id="number-two" type="number" />
+                            </div>
+                        </fieldset>
+                        <input class="btn-form" type="submit" />
+                        <p class="create-page">
+                            Результат <span class="res"></span>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+    </body>
+</html>
