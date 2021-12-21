@@ -1,8 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: powderblue;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.section-block {
+    margin-top: 50px;
+    width: 500px;
+}
 
 .input {
     margin: 20px;
 }
 .btn-form {
+    cursor: pointer;
     margin-top: 20px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    padding: 7px 25px;
 }
 
+.res {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+}
+#number-one,
+#number-two {
+    outline: none;
+}
